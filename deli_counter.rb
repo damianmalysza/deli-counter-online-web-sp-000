@@ -8,7 +8,7 @@ def line(array)
     array.each_index do |index,name|
       new_array[index] = "#{index+1}. #{name}"
     end
-    puts "The line is currently: #{new_array.join}"
+    puts "The line is currently: #{new_array.join(" ")}"
 end
 
 def take_a_number(array,name)
