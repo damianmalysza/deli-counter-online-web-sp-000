@@ -6,7 +6,7 @@ def line(array)
   else
     new_array = []
     array.each_index do |index,name|
-      new_array[index] = "#{index+1}"
+      new_array[index] = "#{index+1}. #{name}"
     end
 end
 
