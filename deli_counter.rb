@@ -7,7 +7,6 @@ def line(array)
     new_array = []
     array.each_with_index do |name,index|
       new_array[index] = "#{index+1}. #{name}"
-      binding.pry
     end
     puts "The line is currently: #{new_array.join(" ")}"
   end
