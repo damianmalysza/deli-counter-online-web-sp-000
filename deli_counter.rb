@@ -6,7 +6,6 @@ def line(array)
   else
     array = array.collect do |name|
       name = "#{array.index(name)+1} #{name}"
-      binding.pry
   end
 end
 
