@@ -18,4 +18,5 @@ end
 
 def now_serving(array)
   puts "Currently serving #{array.first}"
+  shift.array
 end
