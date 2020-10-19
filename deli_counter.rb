@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array = array.collect do |name|
-      array.index(i)
+      name = array.index(name) 
   end
 end
 
