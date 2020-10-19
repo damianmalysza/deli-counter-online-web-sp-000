@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array = array.collect do |name|
-      name = "#{array.index(name)+1} #{name}
+      name = "#{array.index(name)+1} #{name}"
   end
 end
 
